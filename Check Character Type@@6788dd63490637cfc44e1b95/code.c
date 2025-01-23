@@ -7,11 +7,11 @@ int main() {
             printf("Vowel\n");
         }else{
             printf("Constant\n");
-        }else if(a>='0'&&a<='9'){
-            printf("Digit\n");
-        }else{
-            printf("Special Character\n");
         }
+    }else if(a>='0'&&a<='9'){
+        printf("Digit\n");
+    }else{
+        printf("Special Character\n");
     }
     return 0;
 }
