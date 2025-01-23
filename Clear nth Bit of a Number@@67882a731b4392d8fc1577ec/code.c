@@ -4,8 +4,8 @@ int main() {
     int num,n;
     scanf("%d",&num);
     scanf("%d",&n);
-    int main=~(1 << n);
-    int result= num & mask;
-    printf("%d", result);
+    int mask=~(1<<n);
+    int result=num&mask
+    printf("%d",n,result)
     return 0;
 }
