@@ -1,10 +1,10 @@
 #include <stdio.h>
 int main() {
-    int a,b;
-    scanf("%d %d",&a,&b);
-    if(a>b){
+    int sp,cp;
+    scanf("%d %d",&sp,&cp);
+    if(sp>cp){
         printf("Profit\n");
-    }else if (a<b){
+    }else if (sp<cp){
         printf("Loss\n");
     }else{
         printf("No Profit No Loss\n");
