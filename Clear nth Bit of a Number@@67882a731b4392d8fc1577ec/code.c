@@ -5,7 +5,7 @@ int main() {
     scanf("%d",&num);
     scanf("%d",&n);
     int mask=~(1<<n);
-    int result=num&mask
-    printf("%d",n,result)
+    int result=num&mask;
+    printf("%d",n,result);
     return 0;
 }
