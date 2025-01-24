@@ -18,7 +18,7 @@ int main() {
         case '/':
         printf("%d\n",a/b);
         break;
-        default;
+        default:
         printf("Error");
     }
     return 0;
