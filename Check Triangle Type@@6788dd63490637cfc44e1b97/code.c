@@ -2,9 +2,9 @@
 int main() {
     int a,b,c;
     scnaf("%d %d %d",&a,&b,&c);
-    if(a=b=c){
+    if((a=b)&&(b=c)){
         printf("Equilateral\n");
-    }else if(a=b!=c){
+    }else if((a=b)&&(b!=c)){
         printf("Isosceles\n");
     }else{
         printf("Scalene\n");
