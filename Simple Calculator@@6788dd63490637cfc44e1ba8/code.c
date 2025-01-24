@@ -7,19 +7,19 @@ int main() {
     scanf("%c",&c);
     switch(c){
         case '+':
-        printf("%d+%d=%d\n",a,ba+b);
+        printf("%d\n",a,ba+b);
         break;
         case'-':
-        printf("%d-%d=%d\n",a,b,a-b);
+        printf("%d\n",a,b,a-b);
         break;
         case '*':
-        printf("%d*%d=%d\n",a,b,a*b);
+        printf("%d\n",a,b,a*b);
         break;
         case '/':
         if (b==0){
             printf("Error:Divisionby zero\n");
         }else{
-        printf("%d/%d=%d\n",a,b,a/b);
+        printf("%d\n",a,b,a/b);
         }
         break;
         default:
