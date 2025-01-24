@@ -19,7 +19,7 @@ int main() {
         printf("%d\n",a/b);
         break;
         default;
-        printf("Error\n");
+        printf("Error");
     }
     return 0;
 }
