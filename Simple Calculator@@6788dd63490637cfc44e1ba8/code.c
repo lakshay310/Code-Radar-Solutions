@@ -1,30 +1,29 @@
 #include <stdio.h>
 int main() {
-    float a,b,r;
+    int a,b;
     char c;
-    scanf("%f %f",&a,&b);
+    scanf("%d\n",&a);
+    scanf("%d\n",&b);
     scanf("%c",&c);
     switch(c){
         case '+':
-        result=a+b;
+        printf("%d\n",a+b);
         break;
-        case '-':
-        result=a-b;
+        case'-':
+        printf("%d\n",a-b);
         break;
         case '*':
-        result=a*b;
+        printf("%d\n",a*b);
         break;
         case '/':
-        if(b==0){
-            printf("Error\n");
-            return 1;
+        if (b==0){
+            printf("Error:Division by zero\n");
+        }else{
+        printf("%d\n",a/b);
         }
-        result= a/b;
         break;
         default:
         printf("Error\n");
-        return 1;
     }
-    printf("Result:%.2f\n",result);
     return 0;
 }
