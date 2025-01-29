@@ -16,7 +16,11 @@ int main() {
         printf("%d\n",a*b);
         break;
         case '/':
+        if (b==0){
+            printf("Error:Division by zero\n");
+        }else{
         printf("%d\n",a/b);
+        }
         break;
         default:
         printf("Error\n");
