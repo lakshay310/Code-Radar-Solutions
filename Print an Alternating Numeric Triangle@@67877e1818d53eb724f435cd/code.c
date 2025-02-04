@@ -9,6 +9,7 @@ int main() {
             s=1-s;
         }
         printf("\n");
+        s=s-1;
     }
     return 0;
 }
