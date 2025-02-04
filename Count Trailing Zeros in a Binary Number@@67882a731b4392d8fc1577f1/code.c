@@ -2,8 +2,6 @@
 
 int main() {
     int num, count = 0;
-
-    printf("Enter a number: ");
     scanf("%d", &num);
 
     // Method 1: Bitwise Operations
@@ -20,7 +18,7 @@ int main() {
     }
     */
 
-    printf("Number of trailing zeros: %d\n", count);
+    printf("%d\n", count);
 
     return 0;
 }
