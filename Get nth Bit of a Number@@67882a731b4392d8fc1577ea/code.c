@@ -1,8 +1,10 @@
 #include <stdio.h>
+int getNthBit(num,n){
+    return (num>>n)&1;
+}
 int main() {
-    int a,n;
-    scanf("%d %d",&n,&a);
-    int nthBit=(a<<n)&1;
-    printf("%d", a,n);
+    int num,n;
+    scanf("%d",&n);
+    printf("%d\n",n,num,getNthBit(num,n));
     return 0;
 }
