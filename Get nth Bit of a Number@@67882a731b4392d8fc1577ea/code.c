@@ -4,6 +4,6 @@ int main() {
     scanf("%d",&num);
     scanf("%d",&n);
     int nthBit=(num>>n)&1;
-    printf("%d\n",num,n,nthBit);
+    printf("%d\n",num);
     return 0;
 }
