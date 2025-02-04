@@ -6,7 +6,7 @@ int main() {
         printf();
         return 0;
     }
-    while(!(num&1)){
+    while(!(num & 1)){
         num>>=1;
         position++;
     }
