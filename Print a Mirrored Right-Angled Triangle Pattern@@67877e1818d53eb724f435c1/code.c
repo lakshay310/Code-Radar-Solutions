@@ -1,12 +1,12 @@
 #include <stdio.h>
 int main() {
-    int i;
-    scanf("%d",&i);
-    for (int n=1;n<=i;n++){
-        for (int j=1;j<=i-1;j++){
+    int N;
+    scanf("%d",&N);
+    for (int i=1;i<=N;i++){
+        for (int j=1;j<=N-1;j++){
             printf(" ");
         }
-        for (intj=1;j<=n;j++){
+        for (intj=1;j<=i;j++){
             printf("*");
         }
         printf("\n");
