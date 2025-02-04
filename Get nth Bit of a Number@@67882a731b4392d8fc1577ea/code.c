@@ -1,5 +1,5 @@
 #include <stdio.h>
-int getNthBit(num,n){
+int getNthBit(int num,int n){
     return (num>>n)&1;
 }
 int main() {
