@@ -1,9 +1,10 @@
 #include <stdio.h>
+
 int main() {
-    int num,n;
-    scanf("%d",&num);
-    scanf("%d",&n);
-    int bit=(n>>1)&num;
-    printf("%d\n",n,bit);
+    int x, n;
+    scanf("%d", &x);
+    scanf("%d", &n);
+    int bitValue = (x >> n) & 1;
+    printf("%d\n", n, bitValue);
     return 0;
-} 
+}
