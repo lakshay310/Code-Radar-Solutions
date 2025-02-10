@@ -15,7 +15,7 @@ int main() {
     scanf("%s", str);  
 
     reverseString(str);
-    printf(" %s\n", str);
+    printf("%s\n", str);
 
     return 0;
 }
