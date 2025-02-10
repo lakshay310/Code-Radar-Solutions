@@ -11,14 +11,11 @@ void reverseString(char str[]) {
 }
 
 int main() {
-    char str[100];  // Assuming the input string won't exceed 100 characters
-
-    printf("Enter a string: ");
-    scanf("%s", str);  // Reads input (without spaces)
+    char str[100];  
+    scanf("%s", str);  
 
     reverseString(str);
-
-    printf("Reversed string: %s\n", str);
+    printf(" %s\n", str);
 
     return 0;
 }
