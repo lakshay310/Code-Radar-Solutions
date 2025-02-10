@@ -15,6 +15,6 @@ int main() {
         }
     }
     printf("%d", ec);
-    printf("%d", oc);
+    printf(" %d", oc);
     return 0;
 }
