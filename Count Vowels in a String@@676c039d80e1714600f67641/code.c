@@ -2,15 +2,15 @@
 
 int main() {
     char str[100];
-    int i, vowel_count = 0;
+    int i, vc = 0;
     scanf("%s", str);
     for (i = 0; str[i] != '\0'; i++) {
-        char ch = str[i];
-        if (ch == 'a' || ch == 'e' || ch == 'i' || ch == 'o' || ch == 'u' || 
-            ch == 'A' || ch == 'E' || ch == 'I' || ch == 'O' || ch == 'U') {
-            vowel_count++;
+        char k = str[i];
+        if (k == 'a' || k == 'e' || k == 'i' || k == 'o' || k == 'u' || 
+            k == 'A' || k == 'E' || k == 'I' || k == 'O' || k == 'U') {
+            vc++;
         }
     }
-    printf("%d", vowel_count);
+    printf("%d", vc);
     return 0;
 }
