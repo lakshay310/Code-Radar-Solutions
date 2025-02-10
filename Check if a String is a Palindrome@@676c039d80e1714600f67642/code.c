@@ -10,7 +10,7 @@ int main() {
     len = strlen(str);
     for(i = 0; i < len / 2; i++) {
         if(str[i] != str[len - i - 1]) {
-            printf("\n");
+            printf("No\n");
             return 0;
         }
     }
