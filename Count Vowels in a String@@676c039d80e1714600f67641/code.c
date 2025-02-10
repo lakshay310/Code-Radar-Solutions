@@ -1,9 +1,9 @@
 #include <stdio.h>
 int main() {
     char str[100];
-    char i;
+    char k;
     scanf("%s",&str);
-    for(i=='a'||i=='e'||i=='i'||i=='o'||i=='u'||i=='A'||i=='E'||i=='I'||i=='O'||i=='U'){
+    for(k=='a'||k=='e'||k=='i'||k=='o'||k=='u'||k=='A'||k=='E'||k=='I'||k=='O'||k=='U'){
         printf("%d",i);
 
     }
