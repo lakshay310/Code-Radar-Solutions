@@ -4,7 +4,6 @@ int main() {
     int ec=0,oc=0;
     scanf("%d",&n);
     int arr[n];
-    printf("\n", n);
     for(i = 0; i < n; i++) {
         scanf("%d", &arr[i]);
     }
@@ -15,7 +14,7 @@ int main() {
             oc++; 
         }
     }
-    printf("%d\n", ec);
-    printf("%d\n", oc);
+    printf("%d", ec);
+    printf("%d", oc);
     return 0;
 }
